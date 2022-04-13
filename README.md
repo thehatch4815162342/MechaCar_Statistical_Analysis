@@ -16,8 +16,8 @@ AutosRUs are requesting insights into the production data surrounding their new 
 ![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/mechacar_df_stats.png?raw=true)
 
   - The variables with non-random amount of variance are vehicle_length and ground_clearance meaning they a have significant impact on mpg.
-  - The slope of the linear model is zero because there are two variables with non-random amount of variance.
-  - R-squared value is 0.7149 which means 71% of the variability of mpg is explained using this linear model. However, since the intercept is also statistically significant, the two other variables with significant impact (vehicle_length and ground_clearance) might need to be scaled or transform in order to make the model more efficient.
+  - The slope of the linear model is not zero because there are two variables with non-random amount of variance.
+  - R-squared value is 0.7149 which means 71% of the variability of mpg is explained using this linear model. However, since the intercept is also statistically significant, the two other variables with significant impact (vehicle_length and ground_clearance) might need to be scaled or transformed in order to make the model more efficient.
 
 ## Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
