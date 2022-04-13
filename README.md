@@ -20,14 +20,39 @@ AutosRUs are requesting insights into the production data surrounding their new 
   - R-squared value is 0.7149 which means 71% of the variablity of mpg is explained using this linear model. However, since the intercept is also statistically significant, the two other variables with significant impact (vehicle_length and ground_clearance) might need to be scaled or transfrom in order to make the model more efficient.
 
 ## Summary Statistics on Suspension Coils
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch.
+
 ![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png?raw=true)
+  - The variance for all manufacturing lots in total is 62.29356. It is not exceedng 100 psi thus meeting the specifications.
+
 ![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png?raw=true)
+  - The variance for each individual lot:
+     - Lot1 - 0.9795918
+     - Lot2 - 7.4693878
+     - Lot3 - 170.2861224
+  - Lot3's variance exceeds 100 psi so it does not meet these specifications while Lot1 and Lot2 do.
 
 ## T-Tests on Suspension Coils
+### All Lots against Population Mean
 ![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/t_test.png?raw=true)
+  - P-value is 0.4925 which is above significance level (α = 0.05)
+  - We can not reject the null hypothesis
+
+### Lot1 against Population Mean
 ![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot1.png?raw=true)
+  - P-value is 0.61325197576 which is above significance level (α = 0.05)
+  - We can not reject the null hypothesis
+
+### Lot2 against Population Mean
 ![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot2.png?raw=true)
+  - P-value is 0.01843 which is below significance level (α = 0.05)
+  - We can reject the null hypothesis
+
+### Lot3 against Population Mean
 ![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot3.png?raw=true)
+   - P-value is 0.6009 which is above significance level (α = 0.05)
+  - We can not reject the null hypothesis
+
 
 ## Study Design: MechaCar vs Competition
 
