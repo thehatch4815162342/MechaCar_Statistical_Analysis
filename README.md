@@ -20,6 +20,10 @@ AutosRUs are requesting insights into the production data surrounding their new 
 ![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png?raw=true)
 
 ## T-Tests on Suspension Coils
+![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/t_test.png?raw=true)
+![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot1.png?raw=true)
+![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot2.png?raw=true)
+![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/t_test_lot3.png?raw=true)
 
 ## Study Design: MechaCar vs Competition
 
