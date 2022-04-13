@@ -15,6 +15,10 @@ AutosRUs are requesting insights into the production data surrounding their new 
 ## Linear Regression to Predict MPG
 ![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/mechacar_df_stats.png?raw=true)
 
+  - The variables with non-random amount of variance are vehicle_length and ground_clearance meaning they a have significant impact on mpg.
+  - The slope of the linear model is zero because there are two variables with non-randmom amount of variance.
+  - R-squared value is 0.7149 which means 71% of the variablity of mpg is explained using this linear model. However, since the intercept is also statistically significant, the two other variables with significant impact (vehicle_length and ground_clearance) might need to be scaled or transfrom in order to make the model more efficient.
+
 ## Summary Statistics on Suspension Coils
 ![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png?raw=true)
 ![alt text](https://github.com/thehatch4815162342/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png?raw=true)
